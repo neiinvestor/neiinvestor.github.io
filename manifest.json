@@ -1,0 +1,29 @@
+{
+  "name": "NEI Portfolio Pro",
+  "short_name": "NEI Pro",
+  "description": "Free professional investment portfolio tracker with real-time prices, sector analysis, alerts and multi-portfolio support.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#07111E",
+  "theme_color": "#07111E",
+  "lang": "en-US",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/",
+      "description": "Open portfolio dashboard"
+    }
+  ]
+}

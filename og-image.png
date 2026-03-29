@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#07111E"/>
+      <stop offset="60%" style="stop-color:#0C1A2E"/>
+      <stop offset="100%" style="stop-color:#0F2038"/>
+    </linearGradient>
+    <linearGradient id="teal-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0F7173;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0F7173;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="gold-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F0B429;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F0B429;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <g stroke="#1A3050" stroke-width="1" opacity="0.4">
+    <line x1="0" y1="157" x2="1200" y2="157"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+
+  <!-- Glow behind chart -->
+  <ellipse cx="870" cy="380" rx="320" ry="200" fill="#0F7173" opacity="0.06"/>
+  <ellipse cx="870" cy="380" rx="200" ry="130" fill="#F0B429" opacity="0.04"/>
+
+  <!-- Chart bars (right side) -->
+  <rect x="620" y="430" width="55" height="140" rx="5" fill="#0F7173" opacity="0.7"/>
+  <rect x="690" y="370" width="55" height="200" rx="5" fill="#0F7173" opacity="0.85"/>
+  <rect x="760" y="300" width="55" height="270" rx="5" fill="#F0B429" opacity="0.8"/>
+  <rect x="830" y="240" width="55" height="330" rx="5" fill="#F0B429"/>
+  <rect x="900" y="180" width="55" height="390" rx="5" fill="#00D4C8" opacity="0.9"/>
+  <rect x="970" y="130" width="55" height="440" rx="5" fill="#00D4C8"/>
+  <rect x="1040" y="90" width="55" height="480" rx="5" fill="#F0B429" opacity="0.7"/>
+
+  <!-- Trend line over chart -->
+  <polyline points="647,420 717,360 787,290 857,228 927,168 997,118 1067,80"
+    stroke="#F0B429" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+
+  <!-- Arrow at end of trend -->
+  <circle cx="1067" cy="80" r="7" fill="#F0B429"/>
+
+  <!-- Left panel: branding -->
+  <!-- Logo emblem -->
+  <rect x="70" y="120" width="72" height="72" rx="16" fill="url(#teal-fade)" opacity="0.9"/>
+  <rect x="70" y="120" width="72" height="72" rx="16" fill="none" stroke="#0F7173" stroke-width="1.5" opacity="0.6"/>
+  <text x="106" y="167" font-family="serif" font-size="38" text-anchor="middle" fill="#F0B429">📈</text>
+
+  <!-- Title -->
+  <text x="70" y="255" font-family="Georgia, serif" font-size="72" font-weight="900" letter-spacing="3" fill="#F0B429">NEI PRO</text>
+  <text x="72" y="295" font-family="Arial, sans-serif" font-size="22" font-weight="400" letter-spacing="4" fill="#7A98BC" text-transform="uppercase">PORTFOLIO TRACKER</text>
+
+  <!-- Divider line -->
+  <rect x="70" y="318" width="480" height="2" rx="1" fill="#0F7173" opacity="0.5"/>
+
+  <!-- Tagline -->
+  <text x="70" y="358" font-family="Georgia, serif" font-size="28" fill="#D8E8F8">Free professional investment tracking.</text>
+  <text x="70" y="394" font-family="Georgia, serif" font-size="28" fill="#D8E8F8">No signup. No ads. Your data.</text>
+
+  <!-- Feature pills -->
+  <rect x="70" y="422" width="152" height="36" rx="18" fill="#0F7173" opacity="0.25" stroke="#0F7173" stroke-width="1"/>
+  <text x="146" y="446" font-family="Arial, sans-serif" font-size="16" fill="#00D4C8" text-anchor="middle">Real-time Prices</text>
+
+  <rect x="234" y="422" width="158" height="36" rx="18" fill="#F0B429" opacity="0.12" stroke="#F0B429" stroke-width="1" opacity="0.4"/>
+  <text x="313" y="446" font-family="Arial, sans-serif" font-size="16" fill="#F0B429" text-anchor="middle">Multi-Portfolio</text>
+
+  <rect x="404" y="422" width="130" height="36" rx="18" fill="#9175FF" opacity="0.15" stroke="#9175FF" stroke-width="1" opacity="0.3"/>
+  <text x="469" y="446" font-family="Arial, sans-serif" font-size="16" fill="#9175FF" text-anchor="middle">Price Alerts</text>
+
+  <!-- Domain -->
+  <text x="70" y="548" font-family="monospace" font-size="22" fill="#415E78" letter-spacing="1">neiinvestor.pages.dev</text>
+
+  <!-- Border accent top -->
+  <rect x="0" y="0" width="1200" height="4" fill="#0F7173"/>
+  <rect x="0" y="0" width="280" height="4" fill="#F0B429"/>
+
+  <!-- Border accent bottom -->
+  <rect x="0" y="626" width="1200" height="4" fill="#1A3050"/>
+</svg>
