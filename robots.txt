@@ -1,4 +1,29 @@
+# Allow all search engines to index the site
 User-agent: *
 Allow: /
 
-Sitemap: https://neiinvestor.pages.dev/sitemap.xml
+# Block AI Crawlers from training on your site content
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+# Link to your sitemap to help Google find your pages faster
+Sitemap: https://neiinvestor.github.io
+
